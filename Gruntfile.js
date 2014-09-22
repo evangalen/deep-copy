@@ -17,11 +17,16 @@ module.exports = function(grunt) {
             }
         },
         karma: {
-            options: {
+            unit: {
+                configFile: 'karma.conf.js',
                 singleRun: true,
                 reporters: ['dots', 'coverage'],
                 preprocessors: {
                     'src/**/*.js': ['coverage']
+                },
+                coverageReporter: {
+                    type: 'lcov',
+                    dir: 'coverage'
                 }
             }
         },
