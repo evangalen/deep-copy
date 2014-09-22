@@ -1,0 +1,14 @@
+{
+  "name": "deep-copy",
+  "version": "0.0.1-snapshot",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "jasmine": "1.3.1"
+  }
+}
