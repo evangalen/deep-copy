@@ -18,7 +18,7 @@
 
 ////////////////////////////////////
 
-var toString          = Object.prototype.toString;
+var toString = Object.prototype.toString;
 
 
 /**
@@ -277,7 +277,7 @@ function indexOf(array, obj) {
  */
 function copy(source, destination, stackSource, stackDest) {
   if (isWindow(source)) {
-    throw "Can't copy! Making copies of Window or Scope instances is not supported.";
+    throw "Can't copy! Making copies of Window instances is not supported.";
   }
 
   if (!destination) {
